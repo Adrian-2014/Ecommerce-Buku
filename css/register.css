@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../bg-img/Padang\ Rumput.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+}
+
+.reg-form {
+    background-color: rgba(0, 0, 0, 0.563); 
+    padding: 10  25px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: auto;
+    width: 260px;
+    height: 450px;
+}
+
+.reg-form h1 {
+    margin-bottom: 10px;
+}
+
+.reg-form h3 {
+    margin-top: 1.5rem;
+}
+
+.reg-form input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    margin-top: -.5rem;
+    color: white;
+    font-size: 1.04rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1.5px solid gray;
+}
+
+.reg-form button {
+    background-color: #0000002e;
+    color: white;
+    border: 1.5px solid;
+    display: block;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    padding: 10px 22px;
+    margin-left: 60px ;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration:none;
+    color: #04f900;
+    text-shadow: 0 0 10px black;
+}
+
+
+.reg-form button:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+    background-color: white;
+    color: #000000ef;
+    text-shadow: none;
+}
+
+a:hover {
+   color: yellow;
+}
+
+@media screen and (max-width: 444px) {
+    .login-form {
+        width: 200%;
+        height: 200%;
+    }
+}
+
+
+
